@@ -1,10 +1,6 @@
 # MaizeBKN
 **A Weakly-Supervised Boundary-Aware Keypoint Network for Precise Phenotyping of Maize Seedlings**
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](你的论文链接)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Framework](https://img.shields.io/badge/PyTorch-1.8+-ee4c2c.svg)](https://pytorch.org/)
-[![Star](https://img.shields.io/github/stars/bbtwozzz/MaizeBKN?style=social)](https://github.com/bbtwozzz/MaizeBKN)
 
 <img src="assets/MaizeBKN.png" width="1280px">
 
@@ -35,7 +31,7 @@ This repository contains the official implementation and dataset for the paper *
 ## 🛠️ Installation
 
 ### Requirements
-* Linux or Windows
+*  Windows
 * Python 3.8+
 * PyTorch ≥ 1.8.0
 * CUDA ≥ 11.0
