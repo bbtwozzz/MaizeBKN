@@ -3,6 +3,7 @@
 
 <img src="assets/MaizeBKN.png" width="100%">
 </div>
+
 ## 📖 Introduction
 
 This repository contains the official implementation and dataset for the paper **"MaizeBKN: A Weakly-Supervised Boundary-Aware Keypoint Network for Precise Phenotyping of Maize Seedlings"**.
@@ -40,5 +41,5 @@ We provide the **MaizeSeedling-Calib** dataset, a millimeter-calibrated dataset 
 <img src="assets/Visual_comparison.png" width="100%">
 
 ## ⚠️ Note
-As the project is not yet finished, this repository currently provides partial data. The full dataset will be released after the project concludes.
+#### As the project is not yet finished, this repository currently provides partial data. The full dataset will be released after the project concludes.
 
