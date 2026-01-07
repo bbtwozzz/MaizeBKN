@@ -21,8 +21,7 @@ This repository contains the official implementation and dataset for the paper *
 We provide the **MaizeSeedling-Calib** dataset, a millimeter-calibrated dataset for maize seedling phenotyping.
 <img src="assets/Data_show.png" width="100%">
 
- **⚠️Note:** Due to the ongoing nature of the research project, we are currently releasing a **subset** of the dataset for benchmarking and testing purposes. The full dataset will be made publicly available upon the completion of the project.
-
+ 
 
 ## 📊 Model Zoo & Results
 ###  Results of comparative experiments
@@ -39,3 +38,7 @@ We provide the **MaizeSeedling-Calib** dataset, a millimeter-calibrated dataset 
 ## 🖼️ Visualization
 ###  Visual comparison of keypoint detection performance across different models
 <img src="assets/Visual_comparison.png" width="100%">
+
+## ⚠️ Note
+As the project is not yet finished, this repository currently provides partial data. The full dataset will be released after the project concludes.
+
