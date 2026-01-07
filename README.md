@@ -1,8 +1,4 @@
 # MaizeBKN
-This repository is used to store datasets and code related to the research of the paper "MaizeBKN: A Weakly-Supervised Boundary-Aware Keypoint Network for Precise Phenotyping of Maize Seedlings."
-<div align="center">
-
-# MaizeBKN
 **A Weakly-Supervised Boundary-Aware Keypoint Network for Precise Phenotyping of Maize Seedlings**
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](你的论文链接)
@@ -10,7 +6,7 @@ This repository is used to store datasets and code related to the research of th
 [![Framework](https://img.shields.io/badge/PyTorch-1.8+-ee4c2c.svg)](https://pytorch.org/)
 [![Star](https://img.shields.io/github/stars/bbtwozzz/MaizeBKN?style=social)](https://github.com/bbtwozzz/MaizeBKN)
 
-<img src="assets/teaser.png" width="800px">
+<img src="assets/MaizeBKN.png" width="1280px">
 
 </div>
 
