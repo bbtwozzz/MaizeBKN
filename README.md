@@ -8,13 +8,17 @@
 
 This repository contains the official implementation and dataset for the paper **"MaizeBKN: A Weakly-Supervised Boundary-Aware Keypoint Network for Precise Phenotyping of Maize Seedlings"**.
 
-**MaizeBKN** is a lightweight yet powerful keypoint detection network designed for agricultural edge devices. It achieves state-of-the-art accuracy with minimal computational cost.
+**MaizeBKN** is a specialized keypoint detection model designed to overcome the inefficiency and subjectivity of traditional manual measurements in maize breeding. It focuses on the rapid and precise extraction of critical agronomic traits—specifically **leaf sheath** and **mesocotyl length**—which are vital indicators for high-density planting potential and lodging resistance.
+
+Built upon a streamlined **Lite-HRNet** backbone, MaizeBKN achieves a superior balance between lightweight deployment and feature representation through channel pruning and module reorganization. Crucially, it introduces an innovative **boundary feature enhancement mechanism** guided by **pseudo-label weak supervision** and **morphological priors**. This allows the network to adaptively strengthen feature responses at the subtle structural connections of seedlings, ensuring high robustness even in complex environments.
 
 ### ✨ Key Features
-- **🚀 Ultra-Lightweight:** Only **0.70M** parameters (38% lower than Lite-HRNet) and **1.13 GFLOPs**.
-- **🎯 High Precision:** Achieves **98.89% AP** and **99.60% AR** on the MaizeSeedling-Calib dataset.
-- **📏 Boundary-Aware:** Introduces a weakly-supervised boundary mining mechanism to handle blurry boundaries and tiny organs.
-- **🌽 Phenotyping System:** Includes a pipeline for extracting phenotypic traits like leaf sheath length and mesocotyl length.
+
+- **🚀 Ultra-Lightweight Design:** Through channel pruning and reorganization, the model reduces parameters by **38.1%** and computational complexity by **5%** compared to the benchmark, making it ideal for high-throughput phenotyping tasks.
+- **🎯 State-of-the-Art Precision:** Achieves an Average Precision (**AP**) of **98.89%** and an average confidence score of **87.15%** on the standardized **MaizeSeedling-Calib** dataset.
+- **📏 High-Resolution Phenotyping:** The average measurement error for phenotypic parameters is **less than 2 mm**, providing millimetric accuracy that rivals or surpasses manual measurement.
+- **🔍 Weakly-Supervised Boundary Awareness:** Novel integration of a boundary detector with **pseudo-labels**, allowing the model to focus on hard-to-distinguish organ boundaries without requiring pixel-level semantic segmentation labels.
+- **🧬 Practical Breeding Value:** Validated in real-world scenarios, the model successfully quantified **shade avoidance responses** induced by low light, proving its effectiveness in screening excellent germplasm for dense planting.
 ---
 
 ## 📂 MaizeSeeding-Calib
@@ -41,5 +45,5 @@ We provide the **MaizeSeedling-Calib** dataset, a millimeter-calibrated dataset 
 <img src="assets/Visual_comparison.png" width="100%">
 
 ## ⚠️ Note
-#### As the project is not yet finished, this repository currently provides partial data. The full dataset will be released after the project concludes.
+#### As the project is still in progress, this repository currently contains a portion of the dataset. The complete dataset will be released after the project concludes.
 
