@@ -11,11 +11,11 @@ Built upon a streamlined **Lite-HRNet** backbone, MaizeBKN achieves a superior b
 
 ### ✨ Key Features
 
-- **🚀 Ultra-Lightweight Design:** By implementing channel pruning alongside structural reorganization, our model successfully cuts down the parameter count by 38.1% and lowers computational overhead by 5% against the baseline. This streamlined design is perfectly tailored for high-throughput phenotyping pipelines.
+- **🚀 Ultra-Lightweight Design:** By implementing channel pruning alongside structural reorganization, our model successfully cuts down the parameter count by **38.1%** and lowers computational overhead by **5%** against the baseline. This streamlined design is perfectly tailored for high-throughput phenotyping pipelines.
 - **🎯 State-of-the-Art Precision:** Achieves an Average Precision (**AP**) of **98.89%** and an average confidence score of **87.15%** on the standardized **MaizeSeedling-Calib** dataset.
 - **📏 High-Resolution Phenotyping:** The average measurement error for phenotypic parameters is **less than 2 mm**, providing millimetric accuracy that rivals or surpasses manual measurement.
 - **🔍 Weakly-Supervised Boundary Awareness:** Novel integration of a boundary detector with **pseudo-labels**, allowing the model to focus on hard-to-distinguish organ boundaries without requiring pixel-level semantic segmentation labels.
-- **🧬 Practical Breeding Value:** Validated in real-world scenarios, the model successfully quantified **shade avoidance responses** induced by low light, proving its effectiveness in screening excellent germplasm for dense planting.
+- **🧬 Practical Breeding Value:** Tested under practical conditions, our pipeline accurately measures low-light-induced **shade avoidance traits**. This demonstrates its strong potential as a reliable tool for identifying high-density tolerant maize varieties during germplasm selection.
 ---
 
 ## 📂 MaizeSeeding-Calib
@@ -27,6 +27,7 @@ We provide the **MaizeSeedling-Calib** dataset, a millimeter-calibrated dataset 
 
 ## 📊 Model Zoo & Results
 ###  Results of comparative experiments
+<img src="assets/Visual_comparison.png" width="100%">
 | Model | Params (M)  | GFLOPs  | AP (%)  | AR (%)  | Score  | PCK@0.05  | PCK@0.1  | NME  |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | HRNetV1 | 28.54 | 40.89 | 98.53 | 99.25 | 86.03 | 87.92 | 96.18 | 3.78 |
