@@ -11,7 +11,7 @@ Built upon a streamlined **Lite-HRNet** backbone, MaizeBKN achieves a superior b
 
 ### ✨ Key Features
 
-- **🚀 Ultra-Lightweight Design:** Through channel pruning and reorganization, the model reduces parameters by **38.1%** and computational complexity by **5%** compared to the benchmark, making it ideal for high-throughput phenotyping tasks.
+- **🚀 Ultra-Lightweight Design:** By implementing channel pruning alongside structural reorganization, our model successfully cuts down the parameter count by 38.1% and lowers computational overhead by 5% against the baseline. This streamlined design is perfectly tailored for high-throughput phenotyping pipelines.
 - **🎯 State-of-the-Art Precision:** Achieves an Average Precision (**AP**) of **98.89%** and an average confidence score of **87.15%** on the standardized **MaizeSeedling-Calib** dataset.
 - **📏 High-Resolution Phenotyping:** The average measurement error for phenotypic parameters is **less than 2 mm**, providing millimetric accuracy that rivals or surpasses manual measurement.
 - **🔍 Weakly-Supervised Boundary Awareness:** Novel integration of a boundary detector with **pseudo-labels**, allowing the model to focus on hard-to-distinguish organ boundaries without requiring pixel-level semantic segmentation labels.
