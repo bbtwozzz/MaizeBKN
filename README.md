@@ -1,12 +1,9 @@
 # MaizeBKN
-**A Weakly-Supervised Boundary-Aware Keypoint Network for Precise Phenotyping of Maize Seedlings**
 
 <img src="assets/MaizeBKN.png" width="100%">
 </div>
 
 ## 📖 Introduction
-
-This repository contains the official implementation and dataset for the paper **"MaizeBKN: A Weakly-Supervised Boundary-Aware Keypoint Network for Precise Phenotyping of Maize Seedlings"**.
 
 **MaizeBKN** is a specialized keypoint detection model designed to overcome the inefficiency and subjectivity of traditional manual measurements in maize breeding. It focuses on the rapid and precise extraction of critical agronomic traits—specifically **leaf sheath** and **mesocotyl length**—which are vital indicators for high-density planting potential and lodging resistance.
 
