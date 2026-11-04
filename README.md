@@ -18,7 +18,7 @@ Built upon a streamlined **Lite-HRNet** backbone, MaizeBKN achieves a superior b
 - **🧬 Practical Breeding Value:** Tested under practical conditions, our pipeline accurately measures low-light-induced **shade avoidance traits**. This demonstrates its strong potential as a reliable tool for identifying high-density tolerant maize varieties during germplasm selection.
 ---
 
-## 📂 MaizeSeeding-Calib
+## 📂 MaizeSeedling-Calib
 
 We provide the **MaizeSeedling-Calib** dataset, a millimeter-calibrated dataset for maize seedling phenotyping.
 <img src="assets/Data_show.png" width="100%">
